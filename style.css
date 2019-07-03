@@ -41,6 +41,10 @@ body h5 {
     margin-top: 30px;
 
 }
+/* .tothetop { !!!THIS MAKES THE HEADER DISAPPEAR!!!
+    position: fixed;
+} */
+
 .pics p {
     font-size: 16px;
     margin-bottom: 5px;
@@ -57,8 +61,10 @@ body h5 {
 
 .bottom {
     margin-right: 70px;
+    margin-bottom: 30px;
 }
 button {
+    /* margin-bottom: 100px; */
     /* background-color: white; */
     /* font-size: */
     /* border: 0px solid transparent; */
@@ -81,11 +87,19 @@ button {
 
 
 .contact {
-    font-size: 15px;
+    font-size: 16px;
     color: #9D9D9D;
     font-family: sans-serif;
     margin-left: 20px;
     margin-top: 10px;
+    margin-top: 100px;
+    line-height: 12px;
+}
+
+.contact h5 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 @media (min-width: 576px) {
 
