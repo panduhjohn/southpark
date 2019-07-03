@@ -6,16 +6,33 @@
     background-color: #1A1A1A;
 }
 
-p {
-    font-size: 12px;
+html p {
+    font-size: 15px;
+    color: #9D9D9D;
+    font-family: sans-serif;
 }
 
-body {
+
+html > body {
     background-color: #1A1A1A;
 }
 
+.header button {
+    text-decoration: none;
+    border: none;
+    color: #9D9D9D;
+}
 
+button {
+    /* background-color: white; */
+    font-size: 
+}
 
+html h5 {
+    font-size: 15px;
+    color: #9D9D9D;
+    font-family: sans-serif;
+}
 @media (min-width: 576px) and (max-width: 767px)
 
 @media (min-width: 768px) and (max-width: 991px)
